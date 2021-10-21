@@ -3,7 +3,7 @@
 ## Description
 
 This repository contains the proof of concept of a very simple and minimalist ransomware.
-It is intentionnally limited to encrypt files contained within the poc_data directory to avoid to encrypt your whole system by accident.
+It is intentionnally limited to encrypt files contained within the poc_data folder to avoid to encrypt your whole system by accident.
 
 This software is intended for educationnal purpose only and was made for a presentation during a cybersecurity class, please, do not use it to harm systems you don't have authorization to.
 
@@ -17,6 +17,13 @@ In a real life scenario, the idea would be to use the miniransomware to encrypt 
 
 Of course, since the goal is not to implement a real attack, only the content of the poc_data folder is encrypted and decrypted.
 
+## Installation
+
+You can easily install any required dependencies with the following command
+
+```bash
+python3 -m pip install -r requirements.txt
+```
 ## Usage
 
 ### Generate a key pair
